@@ -1,0 +1,53 @@
+p {
+    color: brown;
+    font:caption
+  }
+  body{
+    background-color: #ffefd5
+
+  }
+
+  #HogwartsCastle {
+width: 30%;
+height: auto;
+border-radius: 50%;
+border: 5px solid brown;
+float: left;
+margin-left: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+shape-outside: circle(50%);
+
+  }
+
+  .special{
+    margin-right: 30px;
+    font: caption;
+    font-size: larger;
+  }
+ 
+
+  #list {
+clear: both;
+
+  }
+  a{
+    font-size: 16px;
+    color: blueviolet;
+  }
+ol{
+    color: blue;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+   padding: 20px
+}
+.content-block{
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    
+}
